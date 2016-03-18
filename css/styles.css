@@ -845,6 +845,7 @@ input.qtyminus {
   position: relative;
   margin: 0 0 25px;
   font-family: 'bitterregular', sans-serif;
+  /*определение шрифта для всего блока*/
 }
 .item-info__layout b {
   font-family: 'bitterbold', sans-serif;
