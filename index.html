@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=1000px;">
+
+	<title>Верстка страниц</title>
+	<style type="text/css">
+		body {
+		    background: url(img/bg-yellow.jpg) repeat left top #fce671;
+		    color: #565656;
+		    font: 13px/1.6 Arial,Tahoma,Verdana,sans-serif;
+		}
+		.wrapper {
+		    background: #fff none repeat scroll 0 0;
+		    margin: 100px auto 0;
+		    padding: 30px 30px 60px 50px;
+		    max-width: 940px;
+		    min-width: 320px;
+		}
+		h1 {
+		    font-size: 2.3em;
+		    margin-bottom: 1em;
+		}
+
+		.marked {
+		    color: #bbb;
+		    font-size: 18px;
+		}
+
+		ol li,.archive{
+			font-size: 20px;
+		    line-height: 24px;
+		    margin-bottom: 5px;
+		}
+
+		a{
+			border-bottom: 1px solid rgba(0, 138, 206, 0.3);
+		    border-color: rgba(0, 138, 206, 0.3);
+		    color: #008ace;
+		    text-decoration: none;   
+		}
+
+		a:hover, .a:hover {
+		    border-color: rgba(204, 0, 0, 0.3);
+		    color: #ff7a00;
+		    transition-duration: 0.1s;
+		}
+	</style>
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+		<div class="wrapper" style="margin: 100px auto 0; background: transparent; padding: 0 0 60px 0;">
+			<img alt="" src="img/logo.png">
+		</div>
+
+	<!-- START WRAPPER BLOCK -->
+	<div class="wrapper" style="margin: 30px auto 0;">
+		
+		<h1>Верстка страниц</h1>
+		<ol>
+			<li><a href="main.html" target="_blank">Стартовая</a><span class="marked">(main.html)</span></li>
+			<li><a href="item.html" target="_blank">Внутренняя</a><span class="marked">(item.html)</span></li>
+			<li><a href="content.html" target="_blank">Контент</a><span class="marked">(content.html)</span></li>
+			<li><a href="reviews.html" target="_blank">Отзывы</a><span class="marked">(reviews.html)</span></li>
+			<li><a href="cart.html" target="_blank">Корзина</a><span class="marked">(cart.html)</span></li>
+		</ol>
+
+		<div style="margin-top:30px;">
+			<a href="parmezan_v.1.2.rar" class="archive">Актуальная версия в архиве</a>
+		</div>
+	</div>
+	<!-- END WRAPPER BLOCK -->
+
+</body>
+</html>

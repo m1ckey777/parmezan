@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=1000px;">
+
+	<title>Верстка</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+	<div class="layout">
+
+		<header class="header__layout">
+			<div class="header__topline ">
+				<div class="container">
+					<div class="wrap cleara">
+						<ul class="header__nav cleara">                                                                                                                            
+							<li><a href="#">главная</a></li>
+							<li><a href="#">о компании</a></li>
+							<li><a href="#">меню</a></li>
+							<li><a href="#">доставка</a></li>
+							<li><a href="#">честные отзывы</a></li>
+							<li><a href="#">акции</a></li>
+							<li><a href="#">контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header__bottomline">
+					<div class="wrap cleara">
+						<a href="#" class="header__logo"><img src="img/logo.png" alt=""></a>
+						<div class="header__item phone">
+							<p class="header__item-title">Заказ пиццы:</p>
+							<a href="tel:+73433614601" class="header__item-phone">+7 (343) 361-46-01</a>
+							<a href="#callback-modal" class="header__item-btn js-popup-modal">обратный звонок</a>
+						</div>
+						<div class="header__item time">
+							<p class="header__item-title">Время работы:</p>
+							<p class="header__item-text"><span>Мы принимаем заказы</span> с 11:00 до 23:00 <strong>Ежедневно</strong></p>
+						</div>
+						<div class="header__item delivery">
+							<p class="header__item-title">Доставка:</p>
+							<p class="header__item-text"><span>Бесплатная доставка</span> по Березовскому при <br>сумме заказа 400 рублей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main-content__layout">
+			<div class="container">
+				<div class="wrap">
+					<div class="tape-header">
+						<h2 class="h2-tape-title" title="Специальные предложения">Специальные предложения</h2>
+					</div>
+				</div>
+				<div class="wrap">
+					<div class="main-slider js-main-slider">
+					  <div>
+					  	<a href="#"><img src="img/slide1.jpg" alt=""></a>
+					  </div>
+					  <div><a href="#"><img src="img/slide1.jpg" alt=""></a></div>
+					  <div><a href="#"><img src="img/slide1.jpg" alt=""></a></div>
+					</div>
+				</div>
+				<div class="wrap sticky-menu-wrap">
+					<div class="tape-header js-sticky-menu">
+						<nav class="category-nav">
+							<ul>
+								<li class="category-nav__item"><a href="#"><span>Пицца</span></a></li>
+								<li class="category-nav__item"><a href="#"><span>Суши</span></a></li>
+								<li class="category-nav__item active"><a href="#"><span>Напитки</span></a></li>
+								<li class="category-nav__item"><a href="#"><span>Комбо наборы</span></a></li>
+							</ul>                                             
+						</nav>
+					</div>
+				</div>
+				<div class="catalog__layout">
+					<div class="wrap">
+						<div class="catalog-scollop">
+							<div class="catalog cleara">
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<a href="#" class="catalog__item-image"><img src="img/userfile/item1.jpg" alt=""></a>
+									<p class="catalog__item-title">Пицца “Барбекю”</p>
+									<div class="catalog__item-text">цыпленок и свинина BBQ, грибы, лук, моцарелла </div>
+									<div class="catalog__item-controls cleara">
+										<div class="catalog__item-controls__btn js-item-price" data-price="450,00">средняя 30 см</div>
+										<div class="catalog__item-controls__btn active js-item-price" data-price="560,00">большая 40 см</div>
+									</div>
+									<div class="catalog__item-footer cleara">
+										<div class="catalog__item-price">560,00 <small>руб.</small></div>
+
+										<div class="catalog__item-cart cart-btn"></div>
+										<div class="counter cleara">
+										    <input type="button" field="quantity" class="qtyplus js-qtyminus" value="-">
+										    <input type="text" class="qty" value="0" name="quantity">
+										    <input type="button" field="quantity" class="qtyplus js-qtyplus" value="+">
+									    </div>
+									</div>
+								</div>
+							</div>
+							<div class="circle-container cleara">
+								<div class="circle-container__item timer">
+									ВЫ ДЕЛАЕТЕ ЗАКАЗ<br>с 11:00 до 23:00
+								</div>
+								<div class="circle-container__item ingredients">
+									МЫ ОТБИРАЕМ СВЕЖИЕ <br>И КАЧЕСТВЕННЫЕ <br>ПРОДУКТЫ
+								</div>
+								<div class="circle-container__item ready">
+									ЗАКАЗ ГОТОВИТСЯ <br>ЗА 15-20 МИНУТ
+								</div>
+								<div class="circle-container__item moto">
+									ЭКСПРЕСС ДОСТАВКА <br>В ТЕЧЕНИЕ 1 ЧАСА
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__layout">
+					<div class="wrap">
+						<h2 class="h2-orange-title">
+							Отзывы наших клиентов:
+						</h2>
+						<div class="review__item-container cleara">
+							<div class="review__item-table">
+								<div class="review__item-row">
+									<div class="review__item-img">
+										<div class="circle-image__wrap">
+											<img src="img/userfile/avatar1.jpg" alt="">
+										</div>
+									</div>
+									<div class="review__item-text">
+										<p class="title">Павел Семенов</p>
+										<p class="date">21/02/2015</p>
+
+										<p class="text">Был очень голоден, решил заказать пиццу, даже не ожидал, что ее привезут так быстро. Пицца была горячая и очень вкусная! Спасибо, буду рекомендовать друзьям.</p>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="review__item__tape-link tape-link"><span>Показать все отзывы</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="basket-widget__layout js-basket-informer">
+				<div class="basket-widget__wrap cleara">
+					<div class="basket-widget__left">
+						<div class="basket-widget__label"></div>
+						<span class="basket-widget__text">Ваш заказ на <span class="price">1899 руб.</span></span>
+						<span class="basket-widget__text">Ваша скидка: <span class="price">99 руб.</span></span>
+					</div>
+					<div class="basket-widget__right">
+						<span class="basket-widget__text basket-widget__text--total">Итого: <span class="price">1370 руб.</span></span>
+						<a href="#" class="basket-widget__btn">перейти в корзину</a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer__layout">
+			<div class="container">
+				<div class="wrap">
+					<div class="footer__container cleara">
+						<div class="footer__item">
+							<p class="copyright">Все права защищены <br>© <a href="#">www.parmezan.bz</a></p>
+
+							<p>Принимаем к оплате:</p>
+							<img src="img/icons/visa.png" alt="">
+							<img src="img/icons/mcard.jpg" alt="">
+						</div>
+						<div class="footer__item">
+							<ul class="footer__nav">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Меню</a></li>
+								<li><a href="#">Доставка</a></li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<ul class="footer__nav">
+								<li><a href="#">Честные отзывы</a></li>
+								<li><a href="#">Акции</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<a href="tel:+73433614601" class="footer__phone">+7 (343) 361-46-01</a>
+							<p>ежедневно с 11:00 - 23:00</p>
+							<div class="footer__soc">
+								<a href="#" class="soc-item v"></a>
+								<a href="#" class="soc-item fb"></a>
+								<a href="#" class="soc-item in"></a>
+								<a href="#" class="soc-item vk"></a>
+							</div>
+						</div>
+					</div>
+					<p class="developer">Разработка дизайна и программирование <a href="#">"FastDog Studio"</a></p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="callback-modal" class="popup-block mfp-hide">
+		<div class="popup-block__header">
+			<h2 class="h2-popup-title">Обратный звонок</h2>
+			<a class="popup-modal-dismiss" href="#"></a>
+		</div>
+		<div class="popup-block__body">
+			<div class="popup-form">
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Контактное лицо:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="Фамилия, имя, отчество">
+				</div>
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Номер телефона:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="+7 123 456 78 91">
+				</div>
+				<div class="form-line form-line--no-left cleara">
+					<div class="label-for-input">Введите код с картинки:</div>
+					<input type="text" class="input-default input-default--captcha">
+					<a href="#" class="captcha-img"><img src="img/userfile/captcha.jpg" alt=""></a>
+				</div>
+				<div class="form-line form-line--no-left cleara">
+					<button class="popup-callback-form__btn dark-orange-btn">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery-filestyle.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/js.js"></script>
+</body>
+</html>
