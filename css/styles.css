@@ -423,11 +423,14 @@ p {
   display: block;
   width: 100%;
   height: 196px;
+  line-height: 196px;
   overflow: hidden;
   margin-bottom: 8px;
+  text-align: center;
 }
 .catalog__item-image img {
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
   max-width: 100%;
   max-height: 100%;
 }
@@ -880,6 +883,7 @@ input.qtyminus {
   display: block;
   width: 395px;
   height: 274px;
+  line-height: 250px;
   background: #fff;
   padding: 12px;
   -webkit-box-shadow: 0 2px 6px rgba(18, 17, 12, 0.2);
@@ -889,13 +893,13 @@ input.qtyminus {
   position: absolute;
   left: 0;
   right: 0;
+  text-align: center;
 }
 .item-info__image-wrap img {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
   max-width: 100%;
   max-height: 100%;
-  height: 250px;
 }
 .ingredients__container {
   margin: 0 0 20px;
