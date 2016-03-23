@@ -458,9 +458,15 @@ p {
   float: left;
   border: 1px solid #fcc376;
   color: #432012;
-  font: 15px/30px 'LatoWebBold', sans-serif;
+  font: 15px/17px 'LatoWebBold', sans-serif;
+  padding: 3px 0;
   text-align: center;
   cursor: pointer;
+  height: 38px;
+}
+.catalog__item-controls__btn .weight {
+  display: block;
+  font: 12px/14px 'bitterregular', sans-serif;
 }
 .catalog__item-controls__btn:first-child {
   -webkit-border-radius: 3px 0 0 3px;
@@ -1010,6 +1016,7 @@ input[type="radio"]:checked:disabled + label::before {
 }
 .mens-counter {
   float: left;
+  margin: 25px 0 0;
 }
 .mens-counter .counter-field {
   border-top: 1px solid #d1d3d4;
@@ -1290,6 +1297,7 @@ input[type="radio"]:checked:disabled + label::before {
   max-width: 150px;
   min-width: 100px;
   min-height: 60px;
+  max-height: 85px;
   z-index: 10;
 }
 .menu-nav__item span {
@@ -1423,11 +1431,16 @@ input[type="radio"]:checked:disabled + label::before {
   top: 0;
   width: 1000px;
 }
-.tape-header.fix .category-nav {
+.tape-header.fix .category-nav,
+.tape-header.fix .menu-nav {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 .sticky-menu-wrap {
   height: 50px;
+  position: relative;
+}
+.menu-nav-wrap {
+  height: 106px;
   position: relative;
 }
 .h2-subtitle {
@@ -2017,4 +2030,7 @@ div.jfilestyle .count-jfilestyle {
 .popup-order-form__payment input[type="radio"] + label {
   display: inline-block;
   margin: 0 15px 10px 0;
+}
+.ingredients-choice-weight {
+  display: block;
 }

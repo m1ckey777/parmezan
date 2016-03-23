@@ -552,9 +552,16 @@ p{
   float: left;
   border: 1px solid #fcc376;
   color: #432012;
-  font: 15px/30px @fontBold;
+  font: 15px/17px @fontBold;
+  padding: 3px 0;
   text-align: center;
   cursor: pointer;
+  height: 38px;
+
+  .weight{
+    display: block;
+    font: 12px/14px @fontBReg;
+  }
 
   &:first-child{
     .bradius(3px 0 0 3px);
@@ -1151,6 +1158,7 @@ input[type="radio"]:checked:disabled + label::before {
 
 .mens-counter{
   float: left;
+  margin: 25px 0 0;
   .counter-field{
     border-top: 1px solid #d1d3d4;
     border-bottom: 1px solid #d1d3d4;
@@ -1462,6 +1470,7 @@ input[type="radio"]:checked:disabled + label::before {
     max-width: 150px;
     min-width: 100px;
     min-height: 60px;
+    max-height: 85px;
     z-index: 10;
   }
   span{
@@ -1607,13 +1616,19 @@ input[type="radio"]:checked:disabled + label::before {
   top: 0;
   width: 1000px;
 
-  .category-nav{
+  .category-nav,
+  .menu-nav{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
   }
 }
 
 .sticky-menu-wrap{
   height: 50px;
+  position: relative;
+}
+
+.menu-nav-wrap{
+  height: 106px;
   position: relative;
 }
 
@@ -2281,4 +2296,8 @@ div.jfilestyle .count-jfilestyle {
     display: inline-block;
     margin: 0 15px 10px 0;
   }
+}
+
+.ingredients-choice-weight{
+  display: block;
 }
