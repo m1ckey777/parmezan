@@ -79,6 +79,25 @@ $(document).ready(function() {
 
 	$(":file").jfilestyle({input: false});
 
+	$(function () {
+
+        if(!$('#ingredients-choice-form').length) return;
+
+        $('#ingredients-choice-form').submit(function(){
+			$.magnificPopup.open({
+				items: {
+					src: '#basket-informer'
+				},
+				type: 'inline',
+				preloader: false,
+				focus: '#username',
+				closeBtnInside: false
+			}, 0);
+			return false;
+		});
+
+    });
+
 });
 
 //-------------------sticky-footer--------------------------------

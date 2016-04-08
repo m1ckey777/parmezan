@@ -129,196 +129,198 @@
 									<img class="center-img" src="img/userfile/img-ingredients.jpg" alt="">
 								</div>
 								<div class="item-info__right">
-									<div class="ingredients-choice__container">
-										<div class="ingredients-choice__line cleara">
-											<div class="ingredients-choice__col-4">
-												<p>Диаметр  30 см. 
-													<span class="ingredients-choice-weight">Вес: 800 гр.</span>
-												</p>
-												<input id="rsecond" type="radio" name="radio" checked hidden />
-       											<label for="rsecond"><img src="img/icons/mens-2x.png" alt=""></label>
-											</div>
-											<div class="ingredients-choice__col-4">
-												<p>Диаметр  40 см.
-													<span class="ingredients-choice-weight">Вес: 800 гр.</span>
-												</p>
-												<input id="rsecond2" type="radio" name="radio" hidden />
-       											<label for="rsecond2"><img src="img/icons/mens-4x.png" alt=""></label>
-											</div>
-											<div class="ingredients-choice__col-4">
-												<p>Кол-во</p>
-												<div class="mens-counter cleara">
-												    <input type="button" field="mens" class="counter-minus js-qtyminus" value="—">
-												    <input type="text" class="counter-field" value="0" name="mens">
-												    <input type="button" field="mens" class="counter-plus js-qtyplus" value="+">
-											    </div>
-											</div>
-										</div>
-										<div class="ingredients-choice__line cleara">
-											<p class="ingredients-choice__title">Добавьте свой вкус:</p>
-											<div class="taste-select__container cleara">
-												<div class="taste-select__item">
-													<div class="taste-select__item-header js-open-ingredients">
-														<div class="taste-ico">
-															<img src="img/userfile/meat.jpg" alt="">
-														</div>
-														<span>Мясо и колбасы</span>
-													</div>
-													<div class="taste-select__item-droplist js-hidden-ingredients-list">
-														<table>
-															<tr>
-																<td><p>Мясо Дор Блю</p><span class="price">120 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients">
-																	    <input type="button" field="ingredients" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Мясо Пармезан</p><span class="price">120 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients2" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients2">
-																	    <input type="button" field="ingredients2" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Мясо Фета</p><span class="price">220 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients3" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients3">
-																	    <input type="button" field="ingredients3" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Мясо Эмменталь</p><span class="price">90 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients4" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients4">
-																	    <input type="button" field="ingredients4" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Мясо</p><span class="price">100 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients5" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients5">
-																	    <input type="button" field="ingredients5" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-														</table>
-													</div>
+									<form id="ingredients-choice-form">
+										<div class="ingredients-choice__container">
+											<div class="ingredients-choice__line cleara">
+												<div class="ingredients-choice__col-4">
+													<p>Диаметр  30 см. 
+														<span class="ingredients-choice-weight">Вес: 800 гр.</span>
+													</p>
+													<input id="rsecond" type="radio" name="radio" checked hidden />
+	       											<label for="rsecond"><img src="img/icons/mens-2x.png" alt=""></label>
 												</div>
-												<div class="taste-select__item">
-													<div class="taste-select__item-header js-open-ingredients">
-														<div class="taste-ico">
-															<img src="img/userfile/cheese.png" alt="">
-														</div>
-														<span>Сыры</span>
-													</div>
-													<div class="taste-select__item-droplist js-hidden-ingredients-list">
-														<table>
-															<tr>
-																<td><p>Сыр Дор Блю</p><span class="price">120 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients11" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients11">
-																	    <input type="button" field="ingredients11" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Сыр Пармезан</p><span class="price">120 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients12" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients12">
-																	    <input type="button" field="ingredients12" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Сыр Фета</p><span class="price">220 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients13" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients13">
-																	    <input type="button" field="ingredients13" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Сыр Эмменталь</p><span class="price">90 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients14" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients14">
-																	    <input type="button" field="ingredients14" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-															<tr>
-																<td><p>Сыр</p><span class="price">100 руб.</span></td>
-																<td>
-																	<div class="ingredients-choice__counter cleara">
-																	    <input type="button" field="ingredients15" class="counter-minus js-qtyminus" value="">
-																	    <input type="text" class="counter-field" value="0" name="ingredients15">
-																	    <input type="button" field="ingredients15" class="counter-plus js-qtyplus" value="">
-																    </div>
-																</td>
-															</tr>
-														</table>
-													</div>
+												<div class="ingredients-choice__col-4">
+													<p>Диаметр  40 см.
+														<span class="ingredients-choice-weight">Вес: 800 гр.</span>
+													</p>
+													<input id="rsecond2" type="radio" name="radio" hidden />
+	       											<label for="rsecond2"><img src="img/icons/mens-4x.png" alt=""></label>
 												</div>
-												<div class="taste-select__item">
-													<div class="taste-select__item-header js-open-ingredients">
-														<div class="taste-ico">
-															<img src="img/userfile/tomat.jpg" alt="">
-														</div>
-														<span>Овощи и грибы</span>
-													</div>
-												</div>
-												<div class="taste-select__item">
-													<div class="taste-select__item-header js-open-ingredients">
-														<div class="taste-ico">
-															<img src="img/userfile/fish.jpg" alt="">
-														</div>
-														<span>Рыба и морепродукты</span>
-													</div>
+												<div class="ingredients-choice__col-4">
+													<p>Кол-во</p>
+													<div class="mens-counter cleara">
+													    <input type="button" field="mens" class="counter-minus js-qtyminus" value="—">
+													    <input type="text" class="counter-field" value="0" name="mens">
+													    <input type="button" field="mens" class="counter-plus js-qtyplus" value="+">
+												    </div>
 												</div>
 											</div>
-										</div>
-										<div class="ingredients-choice__line">
-											<p class="title-text">Дополнительные ингридиенты, которые вы выбрали:</p>
+											<div class="ingredients-choice__line cleara">
+												<p class="ingredients-choice__title">Добавьте свой вкус:</p>
+												<div class="taste-select__container cleara">
+													<div class="taste-select__item">
+														<div class="taste-select__item-header js-open-ingredients">
+															<div class="taste-ico">
+																<img src="img/userfile/meat.jpg" alt="">
+															</div>
+															<span>Мясо и колбасы</span>
+														</div>
+														<div class="taste-select__item-droplist js-hidden-ingredients-list">
+															<table>
+																<tr>
+																	<td><p>Мясо Дор Блю</p><span class="price">120 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients">
+																		    <input type="button" field="ingredients" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Мясо Пармезан</p><span class="price">120 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients2" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients2">
+																		    <input type="button" field="ingredients2" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Мясо Фета</p><span class="price">220 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients3" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients3">
+																		    <input type="button" field="ingredients3" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Мясо Эмменталь</p><span class="price">90 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients4" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients4">
+																		    <input type="button" field="ingredients4" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Мясо</p><span class="price">100 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients5" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients5">
+																		    <input type="button" field="ingredients5" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+													<div class="taste-select__item">
+														<div class="taste-select__item-header js-open-ingredients">
+															<div class="taste-ico">
+																<img src="img/userfile/cheese.png" alt="">
+															</div>
+															<span>Сыры</span>
+														</div>
+														<div class="taste-select__item-droplist js-hidden-ingredients-list">
+															<table>
+																<tr>
+																	<td><p>Сыр Дор Блю</p><span class="price">120 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients11" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients11">
+																		    <input type="button" field="ingredients11" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Сыр Пармезан</p><span class="price">120 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients12" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients12">
+																		    <input type="button" field="ingredients12" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Сыр Фета</p><span class="price">220 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients13" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients13">
+																		    <input type="button" field="ingredients13" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Сыр Эмменталь</p><span class="price">90 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients14" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients14">
+																		    <input type="button" field="ingredients14" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+																<tr>
+																	<td><p>Сыр</p><span class="price">100 руб.</span></td>
+																	<td>
+																		<div class="ingredients-choice__counter cleara">
+																		    <input type="button" field="ingredients15" class="counter-minus js-qtyminus" value="">
+																		    <input type="text" class="counter-field" value="0" name="ingredients15">
+																		    <input type="button" field="ingredients15" class="counter-plus js-qtyplus" value="">
+																	    </div>
+																	</td>
+																</tr>
+															</table>
+														</div>
+													</div>
+													<div class="taste-select__item">
+														<div class="taste-select__item-header js-open-ingredients">
+															<div class="taste-ico">
+																<img src="img/userfile/tomat.jpg" alt="">
+															</div>
+															<span>Овощи и грибы</span>
+														</div>
+													</div>
+													<div class="taste-select__item">
+														<div class="taste-select__item-header js-open-ingredients">
+															<div class="taste-ico">
+																<img src="img/userfile/fish.jpg" alt="">
+															</div>
+															<span>Рыба и морепродукты</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="ingredients-choice__line">
+												<p class="title-text">Дополнительные ингридиенты, которые вы выбрали:</p>
 
-											<div class="selected-ingredients__container">
-												<span class="selected-ingredients__item"><img src="img/userfile/pizza.png" alt=""></span>
-												<span class="selected-ingredients__item"><img src="img/userfile/bacon.png" alt=""></span>
-												<span class="selected-ingredients__item"><img src="img/userfile/gruzdi.png" alt=""></span>
-												<span class="selected-ingredients__item"><span>2х</span><img src="img/userfile/indejka.png" alt=""></span>
-												<span class="selected-ingredients__item"><img src="img/userfile/cheese.png" alt=""></span>
+												<div class="selected-ingredients__container">
+													<span class="selected-ingredients__item"><img src="img/userfile/pizza.png" alt=""></span>
+													<span class="selected-ingredients__item"><img src="img/userfile/bacon.png" alt=""></span>
+													<span class="selected-ingredients__item"><img src="img/userfile/gruzdi.png" alt=""></span>
+													<span class="selected-ingredients__item"><span>2х</span><img src="img/userfile/indejka.png" alt=""></span>
+													<span class="selected-ingredients__item"><img src="img/userfile/cheese.png" alt=""></span>
+												</div>
+											</div>
+											<div class="ingredients-choice__line cleara">
+												<button class="ingredients-choice__inbasket-btn" type="submit">
+													<span>добавить в корзину</span>
+												</button>
+												<div class="ingredients-choice__in-total">
+													<span>Стоимость: <span class="price">1899 руб.</span></span>
+												</div>
 											</div>
 										</div>
-										<div class="ingredients-choice__line cleara">
-											<button class="ingredients-choice__inbasket-btn">
-												<span>добавить в корзину</span>
-											</button>
-											<div class="ingredients-choice__in-total">
-												<span>Стоимость: <span class="price">1899 руб.</span></span>
-											</div>
-										</div>
-									</div>
+									</form>
 								</div>
 							</div>
 							
@@ -436,6 +438,18 @@
 					<button class="popup-callback-form__btn dark-orange-btn">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<div id="basket-informer" class="basket-informer popup-block mfp-hide">
+		<div class="popup-block__body">
+			
+			<div class="basket-informer__inner">
+				<div class="basket-informer__inner-title">Товар добавлен в корзину</div>
+				<a href="#" class="basket-informer__btn">оформить заказ</a>
+			</div>
+
+			<a class="popup-modal-dismiss" href="#"></a>
 		</div>
 	</div>
 
