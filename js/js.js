@@ -82,7 +82,7 @@ $(document).ready(function() {
 	$(function () {
 
         if(!$('#ingredients-choice-form').length) return;
-
+        
         $('#ingredients-choice-form').submit(function(){
 			$.magnificPopup.open({
 				items: {
@@ -93,11 +93,14 @@ $(document).ready(function() {
 				focus: '#username',
 				closeBtnInside: false
 			}, 0);
+			setTimeout(function(){
+				$.magnificPopup.close();
+			}, 4000);
 			return false;
 		});
 
-    });
-
+	});
+	
 });
 
 //-------------------sticky-footer--------------------------------
