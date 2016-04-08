@@ -4,7 +4,11 @@ $(document).ready(function() {
 		type: 'inline',
 		preloader: false,
 		focus: '#username',
-		showCloseBtn: false
+		showCloseBtn: false,
+		callbacks: {
+			open: function() { $('.js-basket-informer').css('padding-right', swidth + "px"); }, 
+			close: function() { $('.js-basket-informer').css('padding-right', 0); },
+		}
 	});
 	$(document).on('click', '.popup-modal-dismiss', function (e) {
 		e.preventDefault();
@@ -79,6 +83,8 @@ $(document).ready(function() {
 
 	$(":file").jfilestyle({input: false});
 
+	var swidth=(window.innerWidth-$(window).width());
+
 	$(function () {
 
         if(!$('#ingredients-choice-form').length) return;
@@ -88,10 +94,15 @@ $(document).ready(function() {
 				items: {
 					src: '#basket-informer'
 				},
+				mainClass: 'basket-informer-overlay',
 				type: 'inline',
 				preloader: false,
 				focus: '#username',
-				closeBtnInside: false
+				closeBtnInside: false,
+				callbacks: {
+					open: function() { $('.js-basket-informer').css('padding-right', swidth + "px"); }, 
+					close: function() { $('.js-basket-informer').css('padding-right', 0); },
+				}
 			}, 0);
 			setTimeout(function(){
 				$.magnificPopup.close();
@@ -100,7 +111,7 @@ $(document).ready(function() {
 		});
 
 	});
-	
+
 });
 
 //-------------------sticky-footer--------------------------------

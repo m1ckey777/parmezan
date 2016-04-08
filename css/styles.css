@@ -2089,3 +2089,6 @@ div.jfilestyle .count-jfilestyle {
   text-transform: uppercase;
   margin: 0 0 8px;
 }
+.mfp-bg.basket-informer-overlay {
+  background: transparent!important;
+}
