@@ -186,3 +186,31 @@ $(function(){
 	    }
 	});
 });
+
+$(function(){ 
+
+	$('.pizza-slice-item__btn').click(function(){
+		var $btn = $(this),
+			$wr = $(this).closest('.constructor'),
+			$parent = $(this).parent('.pizza-slice-item'),
+			$drop = $(this).siblings('.pizza-slice-item__dropbox');
+
+		$wr.find('.pizza-slice-item__dropbox').not($drop).fadeOut();
+		$wr.find('.pizza-slice-item.active').not($parent).removeClass('active');
+		if ($parent.hasClass('active')){
+			$parent.removeClass('active');
+			$parent.find('.pizza-slice-item__dropbox').fadeOut();
+		} else {
+			$parent.addClass('active');
+			$parent.find('.pizza-slice-item__dropbox').fadeIn();
+		}
+		
+
+	});
+
+	$('.js-dropbox-close').click(function(){
+		$('.constructor .pizza-slice-item__dropbox').fadeOut();
+		$('.constructor .pizza-slice-item.active').removeClass('active');
+	});
+
+});
