@@ -2160,8 +2160,6 @@ div.jfilestyle .count-jfilestyle {
 .pizza-slice__ingredient img {
   display: block;
   margin: 0 auto;
-  max-height: 100%;
-  max-width: 100%;
 }
 .pizza-slice-item--1 {
   position: absolute;
